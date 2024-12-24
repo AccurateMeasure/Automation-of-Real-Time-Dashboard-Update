@@ -12,7 +12,7 @@ This project aims to automate the process of refreshing Power BI datasets throug
 
 ## Table of Content
 
-- [Set Up and Configuration](./Set_Up_and_Configuration)
-- [Deployment](./Deployment)
+- [Set Up and Configuration](./Set_Up_and_Configuration.md)
+- [Deployment](./Deployment.md)
 - [Summary](./Summary)
-- [Appendix (Python Notebook)](./Appendix)
+- [Appendix (Python Notebook)](./Appendix.ipynb)
