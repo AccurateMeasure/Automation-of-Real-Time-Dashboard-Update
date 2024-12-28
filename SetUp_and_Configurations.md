@@ -3,11 +3,13 @@
 ## Installing Required Libraries
 
 To set up the pyhton environment the necessary libraries where installed which include: smtplib, email, msal, pyspark, requests.
+
 **smtplib:** use to send email
 **email:** use to structure the email
 **msal:** use to obtain access token for microsoft entra ID authentication.
 **pyspark:** use to initialize the Spark session
 **requests:** use to make HTTP requests to external services (Sends a POST request to trigger dataset refreshes via the Power BI API and can also be use to get access token from Azure).
+
 Anaconda jupyter notebook was used for development and testing before deploying the code to Microsoft fabric workspace.
 
 ## Configurating Permissions
