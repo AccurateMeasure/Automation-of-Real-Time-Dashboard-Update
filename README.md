@@ -13,7 +13,7 @@ The solution integrates with Azure Entra ID and use the MSAL library, to ensure 
 
 ## Table of Content
 
-- [Set Up and Configuration](./Set_Up_and_Configuration.md)
+- [Set Up and Configuration](./Set_Up_and_Configurations.md)
 - [Deployment](./Deployment.md)
 - [Summary](./Summary)
 - [Appendix (Python Notebook)](./Appendix.ipynb)
