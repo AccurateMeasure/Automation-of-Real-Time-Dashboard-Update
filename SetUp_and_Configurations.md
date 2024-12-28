@@ -2,7 +2,7 @@
 
 ## Installing Required Libraries
 
-To set up the pyhton environment the necessary libraries where install which include: smtplib, email, msal, pyspark, requests.
+To set up the pyhton environment the necessary libraries where installed which include: smtplib, email, msal, pyspark, requests.
 **smtplib:** use to send email
 **email:** use to structure the email
 **msal:** use to obtain access token for microsoft entra ID authentication.
