@@ -41,5 +41,5 @@ The App users identity is used to access and query Power BI datasets.
 
 Your smtp_server and smpt_port choice is defined by the sender email service provider. The smtp_server and port used in the notebook is for gmail users. If, you are using a different email service provider like outlook you will have to replace the smtp_server and smtp_port for that of outlook. For gmail users smtp_password is not your email login password. Google security requires you to generate app password(google "how to get google application password" to get the detailed steps.(The procedure is under ther security settings of your google account). 
 
-- Define functions that prints and sends the following notifications: email sent successfully, failed to send email, dataset refresh triggered sucessfully, failed to trigger refresh, failed to obtain access token, dataset was triggered successfully, failed to trigger dataset refresh, and an error occurred while refreshing the dataset.
+- Define python functions that print and send the notification respectively, when the code execution result is either email sent successfully, failed to send email, dataset refresh triggered sucessfully, failed to trigger refresh, failed to obtain access token, dataset was triggered successfully, failed to trigger dataset refresh, or an error occurred while refreshing the dataset.
 
