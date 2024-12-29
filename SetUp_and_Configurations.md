@@ -14,7 +14,7 @@ To set up the pyhton environment the necessary libraries where installed which i
 
 **requests:** use to make HTTP requests to external services (Sends a POST request to trigger dataset refreshes via the Power BI API and can also be use to get access token from Azure).
 
-Anaconda jupyter notebook was used for development and testing before deploying the code to Microsoft fabric workspace.
+Anaconda jupyter notebook was used for development and testing environment.
 
 ## Configurating Permissions
 
