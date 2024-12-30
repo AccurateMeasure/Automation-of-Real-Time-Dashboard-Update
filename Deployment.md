@@ -14,7 +14,7 @@ choose start date and time, end date and time, your time zone and apply the sett
 
 Jupyter scheduler is free, but you have to install it on your work environment and your server needs to be active. Jupyter scheduler cannot run offline when you do not have internet network or your system is off:
 - Open your anaconda prompt, activate your python environment with command "conda activate ***your python env***" and enter.
-- Install jupyter scheduler extension if you don't have it already in your environment with the command "pip install jupyter_scheduler", then enter.
+- Install jupyter scheduler extension if you don't have it already in your environment with the command "pip install jupyter_scheduler", enter.
 - Open jupyterLab from anaconda prompt within the same environment link the extension to your current python environment with the command "jupyter lab", and enter.
 - From the jupyterLab server open the script and on the top left of the cell, to the right create a notebook job, you can change the job name if you want, then select run on schedule, under interval select custom schedule and in the cron expression type */5****
 for the schedule to run every 5mins or choose the interval best suitable for your need, then choose your time and click on create to finish the setup. 
