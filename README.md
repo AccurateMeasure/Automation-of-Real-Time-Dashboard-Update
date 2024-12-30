@@ -15,5 +15,5 @@ The solution integrates with Azure Entra ID and use the MSAL library, to ensure 
 
 - [Set-Up and Configurations](./SetUp_and_Configurations.md)
 - [Deployment](./Deployment.md)
-- [Summary](./Summary)
+- [Summary](./Summary.md)
 - [Appendix (Python Notebook)](./DatasetAutomationNotebook.ipynb)
