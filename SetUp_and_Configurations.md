@@ -24,12 +24,12 @@ the use of service principals and register a service principal security group an
 
 **Azure Portal Configurations:** To register a service principal and get the relevant authentication credentials:
 - Create a new security group in Azure portal under the groups in manage and add member(s).
-- Register an App in Azure portal under App registrations, then copy the **application ID** which is the **client ID** and the Directory(tenant) ID which is the **tenant ID**.(The App will use the service principal to acquire an access token
+- Register an App in Azure portal under App registrations, then copy the **application ID** which is the **client ID** and the Directory(tenant) ID which is the **tenant ID**.(The App will use the service principal identity to acquire an access token).
 - Create a client secret under the certificates and secrets, click add, then copy the **key value** which is the **client secret**
-- Add the App to the security group you created ealier(by going back to groups, click on all groups, then select the group, under total member, click view members, then click add members, select the App to add to the security group)
+- Add the App to the security group you created ealier(by going back to groups, click on all groups, then select the group, under total members, click view members, then click add members, search and select the App to add to the security group)
 The App users identity is used to access and query Power BI datasets.
 
-**Power BI Services Configuations:** To allow service principal to use Power BI APIs and get workspace and dataset IDs:
+**Power BI Services Configurations:** To allow service principal to use Power BI APIs and get workspace and dataset IDs:
 - From the admin portal of power BI service in tenant settings under the developer settings enable the settings to allow service principals to use Power BI APIs and specify the App security group you created in Azure portal to assign settings and apply.
 - Goto the workspace carrying the dataset to configure access properties: click the access buttons and search for the App you created in Azure portal, add and assign App permission(member) to the workspace to effectively grant permission to access API
   of the workspace with the dataset.
