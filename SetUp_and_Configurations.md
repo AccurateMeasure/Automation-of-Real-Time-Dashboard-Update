@@ -2,7 +2,7 @@
 
 ## Installing Required Libraries
 
-To set up the pyhton environment the necessary libraries where installed which include: smtplib, email, msal, pyspark, requests.
+To set up the python environment the necessary libraries where installed which include: smtplib, email, msal, pyspark, and requests.
 
 **smtplib:** use to send email
 
@@ -20,9 +20,9 @@ Anaconda jupyter notebook was used for development and testing environment.
 
 Granted permissions is required to access all Power BI REST APIs. Azure service principal is a security identity used on this project to acquire access token to access Power BI Workspace and dataset APIs,
 because its a good choice for production and supports the security rule of least priviledges. The Azure service principal do not need a Power BI pro license. But, the Power BI tenant admin must enable
-the use of service principals and register a service principal security group and moreso, should have a Power BI Pro license.
+the use of service principals and register a service principal security group and moreso, the Power BI tenant admin should have a Power BI Pro license.
 
-**Azure Portal Configurations:** To register a service principal get the relevant credentials:
+**Azure Portal Configurations:** To register a service principal and get the relevant authentication credentials:
 - Create a new security group in Azure portal under the groups in manage and add member(s).
 - Register an App in Azure portal under App registrations, then copy the **application ID** which is the **client ID** and the Directory(tenant) ID which is the **tenant ID**.(The App will use the service principal to acquire an access token
 - Create a client secret under the certificates and secrets, click add, then copy the **key value** which is the **client secret**
